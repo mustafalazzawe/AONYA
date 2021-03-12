@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Player_YellowSword
+  m_Controller: {fileID: 9100000, guid: de4f3a4b528bdb8468ae65c9d8ea99b7, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 468097d04281d744eb5aa10bf882ec28, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 56a04b4c5048b5e4fb5d8a588bc37280, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dfddfeec1188ec74f8466b69754141bc, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ca1349357b6ec144fa6dbd19be1decab, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1a40f88664927254fbaea4234992fe9d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8196d367ff2449f46a87965d86e0d9a7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 38a9f4cebe3c6e24c8c722f14afcf192, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a8641fd3811204442b885bc552f07827, type: 2}

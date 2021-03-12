@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerDeathEffect
+  m_Controller: {fileID: 9100000, guid: bf3a0d0bda0dd3340963a4ac4e96e378, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 05f101f5d5bdb7e44822e9df277b86a4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4618bbf71276ec94ba50433b09d8e5a1, type: 2}
