@@ -31,7 +31,7 @@ public class Chest : InteractableObject {
             // check for interaction button "i"
             if (Input.GetButtonUp("Interact")) {
                 // check if the chest is already open, do nothing, else get contents
-                if(chestOpen) {
+                if (chestOpen) {
                     return;
                 }
                 GetChestItem();
@@ -65,24 +65,24 @@ public class Chest : InteractableObject {
     }
 
     public override void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.CompareTag(playerTag.value) && !other.isTrigger) {
+        if (other.gameObject.CompareTag(playerTag.value) && !other.isTrigger) {
             playerInRange = true;
 
             // only raise the game event clue if the chest is closed
-            if(!chestOpen) {
+            if (!chestOpen) {
                 gameEventClue.Raise();
             }
-        }   
+        }
     }
 
     public override void OnTriggerExit2D(Collider2D other) {
-        if(other.gameObject.CompareTag(playerTag.value) && !other.isTrigger) {
+        if (other.gameObject.CompareTag(playerTag.value) && !other.isTrigger) {
             playerInRange = false;
 
             // only raise the game event clue if the chest is closed
-            if(!chestOpen) {
+            if (!chestOpen) {
                 gameEventClue.Raise();
             }
-        } 
+        }
     }
 }
