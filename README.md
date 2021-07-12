@@ -2,6 +2,8 @@
 
 A top-down 2D game made in Unity for a school project. 
 
+Trailer: https://youtu.be/cMPBU7mgRAo
+
 ---
 
 Creators: Mustafa Al-Azzawe, Daniyal Shah
